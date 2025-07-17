@@ -1,6 +1,6 @@
 public class SubsetSum {
     private boolean subsetSum(int nums[], int target, int n)
-    {
+    {//Recurrence relation for recursion is T(n) = T(n - 1) + 1 that is 2^n for recursion but for dp it is n ^ 2 only
         boolean dp[][] = new boolean[n + 1][target + 1];
         for (int i = 0; i < n + 1; i++)
         {
@@ -27,3 +27,4 @@ public class SubsetSum {
       System.out.println(ob.subsetSum(nums, sum, 5));
     }
 }
+//To find all the subsets we have to use backtracking and not this
