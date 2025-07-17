@@ -20,4 +20,4 @@ public class bottomup {
      System.out.println("The maximum profit is " + knapsack(val, wt, cap, 4));
     }
 }
-//This is the memosized version of the code
+//This is the bottom up version of the code
