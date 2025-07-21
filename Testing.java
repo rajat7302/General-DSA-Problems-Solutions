@@ -5,3 +5,6 @@ public class Testing
     }
 }//git pull --rebase origin main
 // git add
+//git add -A
+//git rebase --continue
+//git reflog

@@ -21,7 +21,7 @@ public class Sieve {//This method is called Sieve of Eratostheness that is a tec
         }
        }
     }
-     int count = 0;
+    
      for (int i = 1; i < n; i++)
      {
         if (isPrime[i]) ans.add(i);
