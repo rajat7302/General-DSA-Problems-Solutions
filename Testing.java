@@ -4,7 +4,6 @@ public class Testing
         System.out.println("Hello everyone");
     }
 }//git pull --rebase origin main
-<<<<<<< HEAD
 // git add
 //git add -A
 //git rebase --continue
@@ -19,6 +18,5 @@ public class Testing
 // git checkout HEAD~1 -- Kadens/MaxProduct.jav
 //git checkout main
 //git reflog
-=======
 // git add
->>>>>>> 789e661 (Updated codes)
+//git push origin main --force
